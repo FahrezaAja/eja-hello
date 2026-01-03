@@ -1,5 +1,5 @@
 package ejahello
 
-func SayHello() string {
-	return "Hello Eja part 2"
+func SayHello(name string) string {
+	return "Hello" + name
 }
